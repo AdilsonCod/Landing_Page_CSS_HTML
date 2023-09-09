@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;800&family=Gruppo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color: #010d26;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5%;
+    box-sizing: border-box;
+}
+header img{
+    width: 130px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+header nav .icon{
+    display: flex;
+    gap: 10px;
+    margin-left: 30px;
+}
+.icon i{
+    margin-left: 20px;
+    font-family: 'Gemunu Libre', sans-serif;
+    color: #dd7eff;
+    font-size: 15PX;
+}
+header nav .menu a{
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Gemunu Libre', sans-serif;
+    color: #fff;
+    transition: .5s ease;
+}
+header nav .menu a:hover{
+    color: #dd7eff;
+}
+header nav .menu a.active{
+    color: #dd7eff;
+}
+section{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url(/essets/imagem/6485266.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    inset: 0;
+    padding: 10% 5%;
+    width: 25%;
+    gap: 20px;
+}
+.container h1{
+    color: #dd7eff;
+    font-family: 'Gruppo', sans-serif;
+    font-size: 3.5rem;
+}
+.container h3{
+    margin-top: 15px;
+    color: #fff;
+    font-family: 'Gruppo', sans-serif;
+    font-size: 25px;
+}
+.container .bt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bt1{
+    background-color: #dd7eff;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: 'Gemunu Libre', sans-serif;
+    border-radius: 8px;
+    border: 1px solid #dd7eff;
+    transition: .5s ease;
+}
+.bt2{
+    background-color: transparent;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: 'Gemunu Libre', sans-serif;
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+}
+.bt1 a{
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.bt2 a{
+    color: #fff;
+    font-size: 20px;
+}
+.bt2 span{
+    color: #dd7eff;
+    font-size: 20px;
+}
+.bt1:hover{
+        background-color: transparent;
+        border:  1px solid #dd7eff;
+}
+.cont{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
